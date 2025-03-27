@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>PRIMEIRO JS</title>
+<link rel="stylesheet" href="JS estilo.css">
+<script src="JS script.js"></script>
+
+<link rel="stylesheet" href="primeiro.js">
+<script src="primeiro.js"></script>
+
+<body>
+<label for="altura">Altura:</label>
+<input type="text" id="altura" name="altura">
+
+<label for="peso">Peso:</label>
+<input type="text" id="peso" name="peso">
+
+<button onclick="calcular()">Calcular IMC</button>
+
+<p id="resultado">Resultado</p>
+
+</body>
+</html>
